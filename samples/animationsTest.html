@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Animations Test</Title>
+<link rel="stylesheet" href="../../css/jquery-ui-1.9.1.custom.min.css" type="text/css"/>
+<link rel="stylesheet" href="animationsTest.css" type="text/css"/>
+<script src="../../libs/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="../../libs/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script>
+<script src="../lib/animatorBase.js" type="text/javascript"></script>
+<script src="../lib/accordionAnimator.js" type="text/javascript"></script>
+<script src="../lib/tabsAnimator.js" type="text/javascript"></script>
+<script src="animationsTest.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="mainContainer">
+		<h3 class="title">Accordion and Tabs tests:</h3>		
+		<div class="row">
+			<div class="col1">
+				<h3>Accordion</h3>
+				<div id="accordionContainer">
+					<h3>Books</h3>
+					<div>These are my books</div>
+					<h3>Films</h3>
+					<div>These are my films</div>
+					<h3>Documentaries</h3>
+					<div>These are my documentaries</div>
+				</div>
+			</div>
+			<div class="col2">
+				<h3>Tabs</h3>
+				<div id="tabsContainer">
+					<ul>
+						<li><a href="#tabs-1">Books</a></li>
+						<li><a href="#tabs-2">Films</a></li>
+						<li><a href="#tabs-3">Documentaries</a></li>
+					</ul>
+					
+					<div id="tabs-1">These are my books</div>
+					<div id="tabs-2">These are my films</div>
+					<div id="tabs-3">These are my documentaries</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col1">
+				<button id="accordionShowBt">show</button>
+				<button id="accordionHideBt">hide</button>	
+			</div>
+			<div class="col2">
+				<button id="tabsShowBt">show</button>
+				<button id="tabsHideBt">hide</button>	
+			</div>
+		</div>		
+		<div id="buttons">
+			
+		</div>
+	</div>
+</body>

@@ -1,0 +1,21 @@
+.row{
+	width: 100%;
+	border: 1px solid black;
+}
+
+.col1{
+	float: left;
+	width: 45%;
+	border: 1px solid black;
+}
+
+.col2{
+	float: right;
+	width: 45%;
+	border: 1px solid black;
+}
+
+#accordionContainer,
+#tabsContainer{
+	height: 300px;
+}
